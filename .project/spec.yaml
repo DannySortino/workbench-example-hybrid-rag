@@ -20,12 +20,12 @@ layout:
 environment:
     base:
         registry: ghcr.io
-        image: huggingface/text-generation-inference:2.3.0
+        image: huggingface/text-generation-inference:3.3.1
         build_timestamp: "20231011102429"
         name: TGI
         supported_architectures:
             - amd64
-        cuda_version: "11.8"
+        cuda_version: "12.8"
         description: The huggingface text-generation-interface base container
         entrypoint_script: ""
         labels:
